@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About – Sanjeev Hans | Ai Cafe Vijaypur</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Creative About Page Enhancements */
+        .about-founder {
+            background: linear-gradient(120deg, #f8fafc 60%, #e0e7ff 100%);
+            padding: 3rem 0 2rem 0;
+        }
+        .about-founder-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            max-width: 1100px;
+            margin: 0 auto;
+            gap: 2.5rem;
+            padding: 2rem 1rem;
+        }
+        .founder-photo {
+            flex: 0 0 200px;
+            text-align: center;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0);}
+            50% { transform: translateY(-10px);}
+        }
+        .founder-bio {
+            flex: 1 1 350px;
+            background: #fff;
+            border-radius: 1.2rem;
+            box-shadow: 0 4px 24px rgba(80,80,180,0.07);
+            padding: 2rem 2.5rem;
+            font-size: 1.08rem;
+            line-height: 1.7;
+        }
+        .founder-bio h3 {
+            color: #4f46e5;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+        }
+        .founder-bio ul {
+            margin: 0.5rem 0 1rem 1.5rem;
+            list-style: none;
+            padding: 0;
+        }
+        .founder-bio ul li {
+            margin-bottom: 0.5rem;
+            position: relative;
+            padding-left: 1.5em;
+        }
+        .founder-bio ul li:before {
+            content: "•";
+            color: #6366f1;
+            font-size: 1.2em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .founder-bio blockquote {
+            background: #eef2ff;
+            border-left: 4px solid #6366f1;
+            margin: 1.2rem 0;
+            padding: 0.8rem 1.2rem;
+            font-style: italic;
+            color: #3730a3;
+        }
+        .founder-bio strong {
+            color: #3730a3;
+        }
+        .about-icons {
+            display: flex;
+            gap: 1.5rem;
+            margin: 1.5rem 0 2rem 0;
+            justify-content: flex-start;
+        }
+        .about-icons .icon-block {
+            background: #6366f1;
+            color: #fff;
+            border-radius: 50%;
+            width: 54px;
+            height: 54px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            box-shadow: 0 2px 8px rgba(80,80,180,0.09);
+        }
+        .about-highlight {
+            background: #f1f5f9;
+            border-radius: 0.7rem;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            color: #334155;
+            font-size: 1.05rem;
+            box-shadow: 0 2px 8px rgba(80,80,180,0.04);
+        }
+        @media (max-width: 900px) {
+            .about-founder-content { flex-direction: column; align-items: center; }
+            .founder-bio { padding: 1.2rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Ai Cafe</h1>
+                <p>Augmented Intelligence</p>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#services">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="google-business-management.html">Google Business Management</a></li>
+                            <li><a href="brand-identity-creation.html">Brand Identity Creation</a></li>
+                            <li><a href="professional-business-cards.html">Professional Business Cards</a></li>
+                            <li><a href="social-media-management.html">Social Media Management</a></li>
+                            <li><a href="website-development-services.html">Website Development</a></li>
+                            <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                            <li><a href="graphic-design-services.html">Graphic Design Services</a></li>
+                            <li><a href="whatsapp-business-integration.html">WhatsApp Business Integration</a></li>
+                            <li><a href="index.html#services">All Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-founder">
+            <div class="section-header" style="text-align:center;">
+                <h2 style="font-size:2.3rem;letter-spacing:0.01em;color:#3730a3;">
+                    <i class="fas fa-user-astronaut"></i> The Founder – Sanjeev Hans
+                </h2>
+                <p style="color:#6366f1;font-size:1.1rem;margin-top:0.5rem;">
+                    Blending <strong>AI</strong> & <strong>Design Thinking</strong> for real business impact
+                </p>
+            </div>
+            <div class="about-founder-content">
+                <div class="founder-photo">
+                    <img src="founder.jpeg" alt="Sanjeev Hans, Founder of Ai Cafe" style="max-width:180px;border-radius:50%;box-shadow:0 2px 12px rgba(0,0,0,0.08);margin-bottom:1.5rem;">
+                    <div class="about-icons">
+                        <span class="icon-block" title="AI"><i class="fas fa-robot"></i></span>
+                        <span class="icon-block" title="Design Thinking"><i class="fas fa-lightbulb"></i></span>
+                        <span class="icon-block" title="Growth"><i class="fas fa-chart-line"></i></span>
+                    </div>
+                </div>
+                <div class="founder-bio">
+                    <p>👋 Hello, I’m <strong>Sanjeev Hans</strong>, Founder &amp; CEO of Ai Cafe, Vijaypur – a digital-first agency that blends Artificial Intelligence and Design Thinking to solve real business challenges.</p>
+                    <div class="about-highlight">
+                        <i class="fas fa-quote-left" style="color:#6366f1;"></i>
+                        <span style="font-size:1.1em;">I believe that in today’s rapidly evolving world, businesses need more than just digital tools – they need strategic guidance, innovative solutions, and creative storytelling to truly stand out.</span>
+                        <br>That’s why I founded Ai Cafe: to empower businesses with modern, AI-driven strategies that don’t just look good, but actually deliver measurable growth.
+                    </div>
+                    
+                    <h3>🌟 My Philosophy</h3>
+                    <blockquote>
+                        “A mixture of AI &amp; Design Thinking can transform businesses.”
+                    </blockquote>
+                    <ul>
+                        <li><strong>AI (Augmented Intelligence):</strong> Brings speed, data-driven insights, and automation.</li>
+                        <li><strong>Design Thinking:</strong> Brings empathy, creativity, and human-centered solutions.</li>
+                    </ul>
+                    <p>Together, they form the backbone of everything I do — from crafting brand identities to building digital marketing strategies and designing innovative business solutions.</p>
+                    
+                    <h3>🚀 My Mission</h3>
+                    <ul>
+                        <li>Designing a brand identity that resonates</li>
+                        <li>Creating user-friendly websites that convert</li>
+                        <li>Building strategic marketing campaigns</li>
+                        <li>Managing digital presence across platforms</li>
+                    </ul>
+                    <div class="about-highlight">
+                        <i class="fas fa-handshake" style="color:#6366f1;"></i>
+                        <span>I see myself not just as a service provider, but as a <strong>partner in growth</strong>.</span>
+                    </div>
+                    
+                    <h3>🧩 Why I Started Ai Cafe</h3>
+                    <p>During my journey as a computer academic instructor, I realized that businesses often struggle with digital transformation. They know they need to adapt, but lack the right tools, strategies, and creative direction.</p>
+                    <ul>
+                        <li>✨ From branding to business digitization</li>
+                        <li>✨ From strategic marketing to creative design</li>
+                        <li>✨ From WhatsApp Business integration to web solutions</li>
+                    </ul>
+                    <p>Always powered by originality, AI-driven insights, and design thinking.</p>
+                    
+                    <h3>🌍 Vision</h3>
+                    <div class="about-highlight">
+                        <i class="fas fa-eye" style="color:#6366f1;"></i>
+                        To make Ai Cafe, Vijaypur a leading digital business management company in India — known for creativity, authenticity, and measurable results.
+                    </div>
+                    
+                    <h3>🙌 A Personal Note</h3>
+                    <p>As a design thinker based in AIIMS Vijaypur, Jammu, I see every project as a chance to create something meaningful and lasting. I’m passionate about helping businesses thrive in the digital world and committed to offering only premium, original services that reflect our clients’ uniqueness.</p>
+                    <blockquote>
+                        “For me, success is not just delivering a service — it’s enabling businesses to grow, connect, and leave an impact.”
+                    </blockquote>
+                    
+                    <h3>📬 Let’s Connect</h3>
+                    <div class="about-highlight">
+                        <i class="fas fa-envelope-open-text" style="color:#6366f1;"></i>
+                        If you’re looking to transform your business digitally and want a partner who understands both technology and creativity, let’s talk.<br>
+                        👉 Explore what we do at: <a href="https://aicafevijaypur.wordpress.com" target="_blank" style="color:#4f46e5;text-decoration:underline;">aicafevijaypur.wordpress.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Ai Cafe</h2>
+                <p>Empowering Businesses <br> in the Digital Era</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html#home">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#testimonials">Testimonials</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="professional-business-cards.html">Business Cards</a></li>
+                        <li><a href="google-business-management.html">Google Business</a></li>
+                        <li><a href="brand-identity-creation.html">Brand Identity</a></li>
+                        <li><a href="whatsapp-business-integration.html">WhatsApp Business</a></li>
+                        <li><a href="website-development-services.html">Website Development</a></li>
+                        <li><a href="social-media-management.html">Social Media Management</a></li>
+                        <li><a href="digital-marketing-services.html">Digital Marketing</a></li>
+                        <li><a href="graphic-design-services.html">Graphic Design</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="cookie-policy.html">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Ai Cafe, Vijaypur. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
